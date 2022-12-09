@@ -100,7 +100,7 @@ int ultra_scan(char Schoice[],int phase,int count,char sign){
 }
 int main(){
     char values[100];
-    printf("Calc: ");
+    printf("Calc:  ");
   
     scanf("%s",values);
 	result = ultra_scan(values,9,0,'G');
