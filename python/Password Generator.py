@@ -7,7 +7,7 @@ if inp.lower()=='y':
     for i in range(length):
         x=random.randint(33,127)
         passwd+=chr(x)
-    print("The Password is:\t",passwd)
+    print("The Password is: ",passwd)
 elif inp.lower()=='n':
     print("Thank You!!")
     br
