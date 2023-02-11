@@ -1,12 +1,15 @@
 # progarmming
 
-![HTML](https://github.com/aruncs31s/programming/tree/main/html)
+- [Assembly](#assembly)
+   - [8051](/assembly)
+   - [Atmega32](/atmega32)
+- [HTML](/html)
 
-![Java Scipt](https://github.com/aruncs31s/programming/tree/main/js)
+- [Java Scipt](/js)
 
-![Java](https://github.com/aruncs31s/programming/tree/main/java/testProgram)
+- [Java](/java)
 
-![Python](https://github.com/aruncs31s/programming/tree/main/python)
+- [Python](/python)
 
 
 
