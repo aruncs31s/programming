@@ -26,6 +26,7 @@ ie, MCU 89V51RD2
 
 ```
 <details><summary>simplified </summary>
+
 ```
 MOV  A , #02
 MOV  B , #05
@@ -67,6 +68,7 @@ SJMP 410E
 ```
 
 <details><summary>simplified </summary>
+
 ```
 MOV  A,#20
 MOV  B,#0A
