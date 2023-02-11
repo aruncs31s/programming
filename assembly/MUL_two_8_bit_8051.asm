@@ -7,4 +7,4 @@ INC  DPTR
 MOV  A , B
 MOVX   @DPTR , A
 SJMP 410E 
-MMMMMM
+
