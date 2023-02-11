@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Intro 
  It is mainly used to eliminate some of the flaws in traditional functional programming(FOP) languages like `C` 
 In this Oject oriented prograaming Data has more important than that of in `FOP` . In OOP the Data is treated is as a critical element .
@@ -22,3 +23,10 @@ ie, Object = Data + Methods
 ## Reference 
 - [Programming with java A primer 4e]() 
 - [https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP](https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP)
+=======
+## JAVA
+|tool|Description|
+|----|-----------|
+|html|used as skeliton|
+![photo](https://static.javatpoint.com/core/images/java-logo1.png)
+>>>>>>> 0416589f8296900321448911be761f0423ef8b8d
