@@ -1,12 +1,12 @@
 # progarmming
 
-![HTML](https://github.com/aruncs31s/programming/tree/main/html)
+![HTML](/programming/html)
 
-![Java Scipt](https://github.com/aruncs31s/programming/tree/main/js)
+![Java Scipt](/programming/js)
 
-![Java](https://github.com/aruncs31s/programming/tree/main/java/testProgram)
+![Java](/programming/java/)
 
-![Python](https://github.com/aruncs31s/programming/tree/main/python)
+![Python](/programming/python)
 
 
 
