@@ -17,4 +17,4 @@ else :
         j = j + 2
 
 print("Sum of this series " ,sum,"x")
-    
+   print
