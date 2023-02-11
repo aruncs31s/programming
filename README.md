@@ -1,12 +1,12 @@
 # progarmming
 
-![HTML](/programming/html)
+![HTML](/html)
 
-![Java Scipt](/programming/js)
+![Java Scipt](/js)
 
-![Java](/programming/java/)
+![Java](/java/)
 
-![Python](/programming/python)
+![Python](/python)
 
 
 
