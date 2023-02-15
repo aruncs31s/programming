@@ -7,6 +7,15 @@
 
 `clc;`  -> clear the command line
 
+- [plot sine wave ](#plot-sine-wave)
+- [plot cosine wave](#plot-cosine-wave)
+- [Clip sine wave](#clip-sine-wave)
+  
+
+
+
+
+
 
 ### plot sine wave
 ```
