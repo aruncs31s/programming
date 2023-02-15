@@ -27,7 +27,7 @@ plot(cos(t))
 ![](/MATLAB/sine.png)
 
 ### Clip sine wave
-
+1. Using max and min
 ```
 close all ;
 clear all;
@@ -48,3 +48,27 @@ ylabel('Amplitude')
 ```
 
 ![](/MATLAB/clip.png?raw=true)
+
+2. Using if else
+
+
+```
+clear all; close all ; clc 
+t = 0:0.01:10;
+A=3;
+F=1;
+x1=A*sin(2*pi*F*t);
+% plot(t,x1)
+for k=1:length(x1)
+    if x1(k) >= 2.5 
+        x1(k) = 2.5 ; 
+    elseif x1(k) <= -2.5
+        x1(k) = -2.5;
+    end
+end
+plot(t,x1)
+
+
+```
+![2 5_clicp](https://user-images.githubusercontent.com/87601622/218994686-d2cad9b0-b9b3-4737-894e-9e0dc36824a8.png)
+ 
