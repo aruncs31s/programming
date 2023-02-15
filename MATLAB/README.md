@@ -114,6 +114,11 @@ disp(solve(P));
 ```
 number = input('Enter a number') ;
 if rem(number, 2) == 0
+   syms X
+   P = X^3 + 3*X^2 - 4*X + 12 ;
+   R= solve(P);
+   disp(R) 
+else 
    t = 0:0.01:10;
    A = 2;
    figure
@@ -122,11 +127,20 @@ if rem(number, 2) == 0
    figure 
    plot(t,2.*sin(t).*cos(t))
    title('2sin(A)cos(A)')
-else 
-   syms X
-   P = X^3 + 3*X^2 - 4*X + 12 ;
-   R= solve(P);
-   disp(R)
+
 end
 
+
+
 ```
+
+**Q :** *Write a MATLAB programm to form a 4,4 matrix form the following matrices*
+```
+A =       B = 
+   2 3       1 5 
+   5 6       6 2
+C =       D = 
+   7 8       1 5 
+   3 2       3 6 
+```
+*if the given number is even .And plot the Sin*2(t) = 1 - cos2(t) by plotting wave forms in a single figure window if the number is odd*
