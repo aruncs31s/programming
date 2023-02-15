@@ -10,9 +10,7 @@
 - [plot sine wave ](#plot-sine-wave)
 - [plot cosine wave](#plot-cosine-wave)
 - [Clip sine wave](#clip-sine-wave)
-  
-
-
+- [Solve X^3+3X^2-4X+12=0](#solve-X^3+3X^2-4X+12=0)
 
 
 
@@ -58,6 +56,7 @@ ylabel('Amplitude')
 
 ![](/MATLAB/clip.png?raw=true)
 
+
 2. Using if else
 
 
@@ -81,3 +80,18 @@ plot(t,x1)
 ```
 ![2 5_clicp](https://user-images.githubusercontent.com/87601622/218994686-d2cad9b0-b9b3-4737-894e-9e0dc36824a8.png)
  
+### Solve X^3+3X^2-4X+12=0
+
+```
+syms X
+P = X^3 + 3*X^2 - 4*X + 12 ;
+R= solve(P);
+disp(R)
+```
+**Output :**
+```
+root(z^3 + 3*z^2 + 12 , z , 1)
+root(z^3 + 3*z^2 + 12 , z , 2)
+root(z^3 + 3*z^2 + 12 , z , 3)
+
+```
