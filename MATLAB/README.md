@@ -113,14 +113,15 @@ disp(solve(P));
 
 ```
 number = input('Enter a number') ;
-if (number% 2) == 0
+if rem(number, 2) == 0
    t = 0:0.01:10;
    A = 2;
    figure
    plot(t,sin(t*2))
    title('Sin 2 * A')
    figure 
-   plot(t,2*sin(t)*cos(t))
+   plot(t,2.*sin(t).*cos(t))
+   title('2sin(A)cos(A)')
 else 
    syms X
    P = X^3 + 3*X^2 - 4*X + 12 ;
