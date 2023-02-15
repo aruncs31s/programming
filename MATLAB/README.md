@@ -9,8 +9,8 @@
 - [plot sine wave ](#plot-sine-wave)
 - [plot cosine wave](#plot-cosine-wave)
 - [Clip sine wave](#clip-sine-wave)
-- [Solve X^3+3X^2-4X+12=0](#solve-X^3+3X^2-4X+12=0)
-- [Solve X^2+2X+3=0](#solve-X^2+2X+3=0)
+- [Solve X^3+3X^2-4X+12=0](#solve-x33x2-4x120)
+- [Solve X^2+2X+3=0](#solve-x22x30)
 
 ### plot sine wave
 
