@@ -11,6 +11,7 @@
 - [Clip sine wave](#clip-sine-wave)
 - [Solve X^3+3X^2-4X+12=0](#solve-x33x2-4x120)
 - [Solve X^2+2X+3=0](#solve-x22x30)
+- [Norm of a vector](#norm-of-a-vector)
 
 ### plot sine wave
 
@@ -144,3 +145,24 @@ C =       D =
    3 2       3 6 
 ```
 *if the given number is even .And plot the Sin*2(t) = 1 - cos2(t) by plotting wave forms in a single figure window if the number is odd*
+
+
+### norm of a vector 
+
+```
+clear all;
+close all;
+clc;
+X = input('Enter a Vector')
+normval = 0 ;
+for k = 1 : length(X)
+    normval = normval + X(k)^2 ;
+end
+normval = sqrt(normval);
+disp(normval)
+```
+
+> input =
+   >  [1 3 6 9]
+> output =
+   > Norm of vector X is 11.2694
