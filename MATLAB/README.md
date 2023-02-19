@@ -162,7 +162,6 @@ normval = sqrt(normval);
 disp(normval)
 ```
 
-> input =
-   >  [1 3 6 9]
-> output =
-   > Norm of vector X is 11.2694
+> input =  [1 3 6 9]
+
+> output =  Norm of vector X is 11.2694
