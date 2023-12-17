@@ -1,0 +1,10 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+dev              3938700        0   3938700   0% /dev
+run              3958084     9716   3948368   1% /run
+efivarfs             160      141        15  91% /sys/firmware/efi/efivars
+/dev/dm-0       60157828 27818952  29250596  49% /
+tmpfs            3958084        0   3958084   0% /dev/shm
+/dev/nvme0n1p2    788320   149904    581072  21% /boot
+tmpfs            3958084        8   3958076   1% /tmp
+/dev/nvme0n1p1    524240    13980    510260   3% /boot/efi
+tmpfs             791616       72    791544   1% /run/user/1000
