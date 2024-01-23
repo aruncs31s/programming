@@ -4,7 +4,6 @@ and output to the console the corresponding boolean value.*/
 
 function main() {
   var age = parseInt(readLine(), 10)
-  var result =
-    age >= 18 ? true : false;
+  var result = age >= 18 ? true : false;
   console.log(result)
 }
