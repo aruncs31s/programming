@@ -4,7 +4,7 @@
 - [Assembly](#assembly)
    - [8051](/assembly)
    - [Atmega32](/atmega32)
-- [c](/c/Basics/)
+- [c](/c/Basics)
 - [MATLAB](/MATLAB)
 - [HTML](/html)
 
