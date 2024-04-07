@@ -52,23 +52,22 @@ int a = 10;
 | -------------- | ------------- |
 | int            | Whole Numbers |
 
-> [!NOTE] int
+> [!NOTE] 
 > Int is like our whole number which is a natural numbers plus negetive numbers
 > ie 
 $$
 int \in (Natural \ Numbers + -(Natural\  Nubers))
 $$
-> -  Example
->  ```c
-int a = 10;
+> - Example
+> ```c
+> int a = 10;
 
 
 
-> [!note] float
+> [!NOTE] 
 > It is for storing floating point numbers eg : `10.10` `3.14159`
 > - Example
 >```c
 >float x = 12.222
-
 
 
