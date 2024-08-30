@@ -1,11 +1,9 @@
 #include <stdio.h>
-int main(void)
-{
+int main(void) {
 
-  const int a= 10,b=12;
- 
+  const int a = 10, b = 12;
 
-  int *p ;
+  int *p;
   p = &a;
-  printf("%d",*(p+1));
+  printf("%d", *(p + 1));
 }
