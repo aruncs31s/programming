@@ -24,7 +24,6 @@ node_t *create_new_node(int value) {
   // node
   result->next = NULL;
   // now return the address of the result
-  printf("%d\n", &result);
   return result;
 }
 void print_the_list(node_t *head) {
