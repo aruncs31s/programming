@@ -29,7 +29,7 @@ void print_table() {
 
   for (int i = 0; i < TABLE_SIZE; ++i) {
     if (hash_table[i] == NULL) {
-      printf("\t%i\t---- \n");
+      printf("\t%i\t---- \n", i);
     } else {
       printf("\t%i\t%s, %d\n", i, hash_table[i]->name, hash_table[i]->age);
     }
