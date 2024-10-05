@@ -7,5 +7,5 @@ void swap(int *a, int *b) {
 int main(int argc, char *argv[]) {
   int a = 1, b = 10;
   swap(&a, &b);
-  printf(" a = %d , b= %d ", a, b);
+  printf(" a = %d , b= %d\n ", a, b);
 }

@@ -1,0 +1,12 @@
+"""
+- Date : 2024-10-05
+- Time : 13:08
+"""
+
+# Polymosphism
+
+
+class Shape:
+    def __init__(self, length):
+        super().__init__("Square")
+        self.length = length

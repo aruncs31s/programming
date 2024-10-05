@@ -1,5 +1,0 @@
-int swap(int a, int b) {
-  a = a ^ b;
-  b = a ^ b;
-}
-int main(int argc, char *argv[]) { return EXIT_SUCCESS; }
