@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/CMakeFiles/bootloader
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/CMakeFiles/bootloader.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/CMakeFiles/bootloader-complete.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

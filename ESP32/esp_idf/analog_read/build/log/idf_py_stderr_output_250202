@@ -1,0 +1,33 @@
+In file included from /home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:8:
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c: In function 'app_main':
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:32:14: error: 'TAG' undeclared (first use in this function)
+   32 |     ESP_LOGI(TAG, "ADC%d Channel[%d] Raw Data: %d", ADC_UNIT_1 + 1,
+      |              ^~~
+/home/aruncs/Git/ESP32/esp-idf/components/log/include/esp_log.h:182:81: note: in definition of macro 'ESP_LOG_LEVEL'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                 ^~~
+/home/aruncs/Git/ESP32/esp-idf/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:32:5: note: in expansion of macro 'ESP_LOGI'
+   32 |     ESP_LOGI(TAG, "ADC%d Channel[%d] Raw Data: %d", ADC_UNIT_1 + 1,
+      |     ^~~~~~~~
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:32:14: note: each undeclared identifier is reported only once for each function it appears in
+   32 |     ESP_LOGI(TAG, "ADC%d Channel[%d] Raw Data: %d", ADC_UNIT_1 + 1,
+      |              ^~~
+/home/aruncs/Git/ESP32/esp-idf/components/log/include/esp_log.h:182:81: note: in definition of macro 'ESP_LOG_LEVEL'
+  182 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                 ^~~
+/home/aruncs/Git/ESP32/esp-idf/components/log/include/esp_log.h:114:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  114 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:32:5: note: in expansion of macro 'ESP_LOGI'
+   32 |     ESP_LOGI(TAG, "ADC%d Channel[%d] Raw Data: %d", ADC_UNIT_1 + 1,
+      |     ^~~~~~~~
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c: At top level:
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:13:12: warning: 'voltage' defined but not used [-Wunused-variable]
+   13 | static int voltage[2][10];
+      |            ^~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/analog_read.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5672: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

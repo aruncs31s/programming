@@ -1,0 +1,7 @@
+/home/aruncs/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20240906/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: esp-idf/freertos/libfreertos.a(app_startup.c.obj):(.literal.main_task+0x24): undefined reference to `app_main'
+/home/aruncs/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20240906/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: esp-idf/freertos/libfreertos.a(app_startup.c.obj): in function `main_task':
+/home/aruncs/Git/ESP32/esp-idf/components/freertos/app_startup.c:206:(.text.main_task+0x95): undefined reference to `app_main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/analog_read.elf.dir/build.make:588: analog_read.elf] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2596: CMakeFiles/analog_read.elf.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "config/sdkconfig.h"
+  "config/sdkconfig.cmake"
+  "bootloader/bootloader.elf"
+  "bootloader/bootloader.bin"
+  "bootloader/bootloader.map"
+  "analog_read.bin"
+  "flash_project_args"
+  "analog_read.map"
+  "project_elf_src_esp32.c"
+)

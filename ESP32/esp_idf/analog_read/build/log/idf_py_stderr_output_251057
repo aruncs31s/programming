@@ -1,0 +1,3 @@
+/home/aruncs/Coding/ESP32/esp_idf/analog_read/main/analog_read.c:13:12: warning: 'voltage' defined but not used [-Wunused-variable]
+   13 | static int voltage[2][10];
+      |            ^~~~~~~
