@@ -13,5 +13,5 @@ class Vote:
             print(f"{self.name} cannot cast a vote")
 
 
-x = Vote("Kingsley", 20)
+x = Vote("someGuy", 20)
 x.validate()

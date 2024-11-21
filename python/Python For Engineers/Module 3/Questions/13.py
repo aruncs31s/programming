@@ -22,3 +22,19 @@ class bank_account:
         if self.balance - money > 0:
             self.balance - money
         print(f"Balance is {self.balance}")
+
+    def set_balance(self, amount):
+        self.balance -= amount
+
+
+arun = bank_account("Arun", 1221212, "savings", 1000)
+
+while True:
+    print(
+        f" Account Name: {arun.holder_name}\n Acc No: {arun.acc_number}\n Type: {arun.type}\n Balance: {arun.balance}"
+    )
+    the_input = input("Want to withdraw money? (y/n)")
+    if the_input == "y":
+        amount = int(input("Enter the amount to withdraw: "))
+        arun.withdraw(amount)
+        arun.set_balance(amount)
